@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+</head>
+
+<body>
+  <h2>basic htm form</h2>
+  <form name="myform" action="" method="post">
+    <table border="1">
+      <tr>
+        <td>Name:</td>
+        <td><input type="text" name="name"></td>
+      </tr>
+      <tr>
+        <td>Address:</td>
+        <td><input type="text" name="address"></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email"></td>
+      </tr>
+      <tr>
+        <td>Gender:</td>
+        <td><input type="radio" name="male" checked>Male</td>
+      </tr>
+      <tr>
+      <tr>
+        <td></td>
+        <td><input type="radio" name="female" checked>Female</td>
+      </tr>
+      <tr>
+        <td>Subscriptions:</td>
+        <td><input type="checkbox" name="paid" id="paid" value="paid">Paid</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="checkbox" name="free" id="free" value="free">Free</td>
+      </tr>
+      <tr>
+        <td>Subject count</td>
+        <td>
+          <select name="count">
+            <option value="-1" selected>Select</option>
+            <option value="1">1</option>
+            <option value="2">3</option>
+            <option value="3">5</option>
+            <option value="4">10</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="button" name="submit" id="submit" value="submit"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
